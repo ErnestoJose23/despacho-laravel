@@ -43,9 +43,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 pr-md-5 pr-sm-0">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Who We Are</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Noelia Custodio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. Donec aliquam orci magna, at sollicitudin libero efficitur eu. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. </p>
           </div>
           <div class="col-lg-7">
             <div class="images">
@@ -100,8 +100,8 @@
 
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h2 class="heading mb-3">Free Consultation</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h2 class="heading mb-3">Reserva una cita</h2>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. </p>
             <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
           </div>  
         </div>

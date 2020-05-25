@@ -409,7 +409,7 @@
 .pb_cover_v3,
 .pb_cover_v4 {
   position: relative;
-  height: 95vh; }
+  height: 100vh; }
   @media (max-width: 767px) {
     .pb_cover,
     .pb_cover_v1,
@@ -1068,6 +1068,8 @@ a {
   left: 0;
   z-index: 100;
   width: 100%;
+  background-color:#0000007a;
+  height: 75px;
   font-family: "Montserrat", Arial, sans-serif; }
   .pb_navbar .navbar-toggler:active, .pb_navbar .navbar-toggler:focus {
     outline: none; }

@@ -1711,4 +1711,12 @@ a {
 .overflow-hidden {
   overflow: hidden; }
 
-/*# sourceMappingURL=style.css.map */
+
+  #CarouselSlide{
+    height: 100vh;
+    filter: brightness(70%);
+  }
+
+  .carousel-item{
+    height: 100vh;
+  }

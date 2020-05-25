@@ -3,7 +3,7 @@
 @section('content')
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Law</a>
+        <a class="navbar-brand" href="index.html">Noelia Custodio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="ion-navicon"></i></span>
         </button>
@@ -15,21 +15,21 @@
             <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">Practicing Areas</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-attorneys">Attorneys</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-testimonials">Testimonials</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
 
-    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/1900x1200_img_7.jpg)" id="section-home">
+    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="section-home">
       <div class="container">
         <div class="row align-items-center justify-content-end">
           <div class="col-md-6  order-md-1">
 
-            <h2 class="heading mb-3">The Law Firm</h2>
-            <div class="sub-heading"><p class="mb-5">A free template by <a href="https://uicookies.com/">uicookies.com</a> for Law Firm</p>
-            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Free Consultation</a></p>
+            <h2 class="heading mb-3">Lorem ipsum</h2>
+            <div class="sub-heading"><p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Reserva una cita</a></p>
             </div>
             
           </div>  

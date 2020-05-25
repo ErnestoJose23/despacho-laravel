@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<title>Law &mdash; Free Multi-Purpose One Page Bootstrap 4 Theme by uicookies.com</title>
+		<title>Noelia Custodio</title>
 		<meta name="description" content="Free Bootstrap 4 Theme by uicookies.com">
 		<meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
@@ -40,7 +40,7 @@
             </div>
             <div class="row">
             <div class="col text-center">
-                <p class="pb_font-14">&copy; 2017 <a href="https://uicookies.com/">Law</a>. All Rights Reserved. Designed by <a href="https://uicookies.com/">uiCookies</a> Demo Images: Unsplash</p>
+                <p class="pb_font-14">&copy;2020 <a href="https://uicookies.com/">Noelia Custodio</a>. All Rights Reserved. Designed by <a href="https://uicookies.com/">uiCookies</a> Demo Images: Unsplash</p>
             </div>
             </div>
         </div>

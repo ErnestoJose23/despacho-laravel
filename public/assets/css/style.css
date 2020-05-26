@@ -1068,7 +1068,6 @@ a {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color:#0000007a;
   height: 75px;
   font-family: "Montserrat", Arial, sans-serif; }
   .pb_navbar .navbar-toggler:active, .pb_navbar .navbar-toggler:focus {
@@ -1710,3 +1709,19 @@ a {
 
 .overflow-hidden {
   overflow: hidden; }
+
+.navbar{
+  font-family: 'Lobster';
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.pb_navbar .nav-link {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.heading{
+  font-family: 'Marvel', cursive;
+}

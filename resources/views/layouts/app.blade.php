@@ -9,7 +9,9 @@
 		<meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
-
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lobster|Marvel">
+    
 		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css">
@@ -27,7 +29,7 @@
 
     @yield('content')
 
-    <footer class="pb_footer bg-light" role="contentinfo">
+    <footer class="pb_footer bg-black" role="contentinfo">
         <div class="container">
             <div class="row text-center">
             <div class="col">
@@ -40,7 +42,7 @@
             </div>
             <div class="row">
             <div class="col text-center">
-                <p class="pb_font-14">&copy;2020 <a href="https://uicookies.com/">Noelia Custodio</a>. All Rights Reserved. Designed by <a href="https://uicookies.com/">uiCookies</a> Demo Images: Unsplash</p>
+                <p class="pb_font-14" style="color:white">&copy;2020 Noelia Custodio. All Rights Reserved. </p>
             </div>
             </div>
         </div>

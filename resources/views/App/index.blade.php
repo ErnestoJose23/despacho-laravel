@@ -9,13 +9,11 @@
         </button>
         <div class="collapse navbar-collapse" id="probootstrap-navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#section-home">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-about">Sobre mi</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-why-us">Why</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">Practicing Areas</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-attorneys">Attorneys</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-testimonials">Testimonials</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-home">INICIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-about">SOBRE MI</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-why-us">WHY</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">AREAS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-contact">CONTACTO</a></li>
           </ul>
         </div>
       </div>
@@ -479,7 +477,7 @@
 
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Get In Touch</h2>
+            <h2 class="mt-0 heading-border-top font-weight-normal">Ponte en contacto</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
         </div>
@@ -491,7 +489,7 @@
               <div class="row">
                 <div class="col-md">
                   <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">Nombre</label>
                     <input type="text" class="form-control p-3 rounded-0" id="name">
                   </div>
                 </div>
@@ -504,11 +502,11 @@
               </div>
               
               <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">Mensaje</label>
                 <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Send Message">
+                <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Enviar">
               </div>
             </form>
           </div>
@@ -521,10 +519,6 @@
               <li>
                 <span class="text-uppercase">Phone</span>
                 +30 976 1382 9921
-              </li>
-              <li>
-                <span class="text-uppercase">Fax</span>
-                +30 976 1382 9922
               </li>
               <li>
                 <span class="text-uppercase">Address</span>

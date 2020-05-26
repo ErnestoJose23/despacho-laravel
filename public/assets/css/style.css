@@ -1728,3 +1728,8 @@ a {
 .heading-border-top, .titulo{
   font-family: 'Lobster';
 }
+
+ .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}

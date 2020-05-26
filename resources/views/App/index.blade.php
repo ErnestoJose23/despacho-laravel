@@ -387,60 +387,75 @@
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top font-weight-normal">Ponte en contacto</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
           </div>
         </div>
 
-        
-        <div class="row">
-          <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
-            <form action="#">
-              <div class="row">
-                <div class="col-md">
-                  <div class="form-group">
-                    <label for="name">Nombre</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="name">
-                  </div>
-                </div>
-                <div class="col-md">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="email">
-                  </div>
-                </div>
-              </div>
-              
-              <div class="form-group">
-                <label for="message">Mensaje</label>
-                <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Enviar">
-              </div>
-            </form>
-          </div>
+        <div class="row contact-info">
+
           <div class="col-md-4">
-            <ul class="pb_contact_details_v1">
-              <li>
-                <span class="text-uppercase">Email</span>
-                probootstrap@gmail.com
-              </li>
-              <li>
-                <span class="text-uppercase">Phone</span>
-                +30 976 1382 9921
-              </li>
-              <li>
-                <span class="text-uppercase">Address</span>
-                San Francisco, CA <br>
-                4th Floor8 Lower  <br>
-                San Francisco street, M1 50F
-              </li>
-            </ul>
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
           </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container">
+        <div class="form">
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Escribe algo..." placeholder="Mensaje"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><div class="form-group">
+              <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Enviar">
+            </div></div>
+          </form>
         </div>
         
       </div>
+
     </section>
+    
     <!-- END section -->
 
 @endsection

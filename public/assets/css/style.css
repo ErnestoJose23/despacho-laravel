@@ -1733,3 +1733,23 @@ a {
   margin-bottom: 20px;
   text-align: center;
 }
+
+
+.contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+@media (min-width: 768px){
+ .contact-address,  .contact-phone, .contact-email {
+    padding: 20px 0;
+ }
+}
+
+.pb_section {
+  padding: 6em 0;
+  position: relative;
+  display: block;
+}

@@ -384,7 +384,7 @@
     <section class="pb_section" data-section="contact" id="section-contact">
       <div class="container">
 
-        <div class="row justify-content-md-center text-center mb-5">
+        <div class="row justify-content-md-center text-center">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top font-weight-normal">Ponte en contacto</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -396,7 +396,7 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
+              <h3>Dirección</h3>
               <address>A108 Adam Street, NY 535022, USA</address>
             </div>
           </div>
@@ -404,7 +404,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
+              <h3>Teléfono</h3>
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
           </div>
@@ -421,7 +421,7 @@
       </div>
 
       <div class="container mb-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d782.1566466985914!2d-5.490767676484406!3d36.183530311192854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1590489784955!5m2!1ses!2ses" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
       <div class="container">

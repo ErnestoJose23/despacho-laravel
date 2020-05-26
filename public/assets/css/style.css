@@ -1712,16 +1712,19 @@ a {
 
 .navbar{
   font-family: 'Lobster';
-}
-
-.navbar-brand {
   font-size: 25px;
 }
 
 .pb_navbar .nav-link {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "marvel", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .heading{
   font-family: 'Marvel', cursive;
+}
+
+.heading-border-top, .titulo{
+  font-family: 'Lobster';
 }

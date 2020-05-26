@@ -11,7 +11,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#section-home">INICIO</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-about">SOBRE MI</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-why-us">WHY</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">AREAS</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-contact">CONTACTO</a></li>
           </ul>
@@ -42,7 +41,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 pr-md-5 pr-sm-0">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Noelia Custodio</h2>
+            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Sobre mí</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. Donec aliquam orci magna, at sollicitudin libero efficitur eu. </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. </p>
           </div>
@@ -99,7 +98,7 @@
 
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h2 class="heading mb-3">Reserva una cita</h2>
+            <h2 class="heading mb-3 titulo">Reserva una cita</h2>
             <p class="sub-heading mb-5 pb_color-light-opacity-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. </p>
             <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
           </div>  
@@ -108,128 +107,6 @@
       </div>
     </section>
     <!-- END section -->
-
-    <section class="pb_section" data-section="why-us" id="section-why-us">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Why Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="images right">
-              <img class="img1 img-fluid" src="assets/images/600x450_img_2.jpg" alt="free Template by uicookies.com">
-              <img class="img2" src="assets/images/800x500_img_1.jpg" alt="free Template by uicookies.com">
-            </div>
-          </div>
-          <div class="col-lg-5 pl-md-5 pl-sm-0">
-            <div id="exampleAccordion" class="pb_accordion" data-children=".item">
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18">Property &amp; Business Law</a>
-                <div id="exampleAccordion1" class="collapse show" role="tabpanel">
-                  <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18">Famimly Law</a>
-                <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18">Commercial Litigation</a>
-                <div id="exampleAccordion3" class="collapse" role="tabpanel">
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion4" class="pb_font-18">Injury Compensation</a>
-                <div id="exampleAccordion4" class="collapse" role="tabpanel">
-                  <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-    
-    <section class="pb_section">
-      <div class="multiple-items pb_slide_v1">
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Criminal Law</h2>
-              <p>Read More</p>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Migration Law</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Property Law</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_1.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>State Laws</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Immigration Laws</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-    </section>
-    <!-- END section -->
-
-    
     <section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-practicing-areas">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
@@ -315,6 +192,79 @@
       </div>  
     </section>
     <!-- END section -->
+    
+    <section class="pb_section">
+      <div class="multiple-items pb_slide_v1">
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum<h2/>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_1.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="link-block">
+            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
+            <div class="slide-text">
+              <h2>Lorem Ipsum</h2>
+              <p>Más información</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <!-- END section -->
+
+    
+  
 
     <section class="pb_section bg-light bg-image with-overlay" data-section="attorneys" id="section-attorneys" style="background-image: url(assets/images/1900x1200_img_2.jpg)">
       <div class="container">
@@ -360,47 +310,6 @@
     </section>
 
 
-    <section class="pb_section pb_testimonial_v1" data-section="testimonials" id="section-testimonials">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Happy Customers</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-md-10 col-sm-12 mb-5">
-            <div class="single-item-no-arrow pb_slide_v1">
-              <div>
-                <div class="media">
-                  <img class="d-flex img-fluid rounded-circle mb-sm-5" src="assets/images/square_img_5.jpg" alt="Generic placeholder image">
-                  <div class="media-body pl-md-5 pl-sm-0">
-                    <blockquote>
-                      <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-                      <p class="pb_author"><citeclass="text-uppercase">John Smith</cite> Designer at uicookies.com</p>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="media">
-                  <img class="d-flex img-fluid rounded-circle mb-sm-5" src="assets/images/square_img_5.jpg" alt="Generic placeholder image">
-                  <div class="media-body pl-md-5 pl-sm-0">
-                    <blockquote>
-                      <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
-                      <p class="pb_author"><cite class="text-uppercase">John Smith</cite> Designer at uicookies.com</p>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
 
     <section class="pb_section bg-light">
       <div class="container">

@@ -111,7 +111,7 @@
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Practicing Areas</h2>
+            <h2 class="mt-0 heading-border-top font-weight-normal">En que estas especializada</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
         </div>
@@ -125,7 +125,7 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Criminal Law</h3>
+                    <h3 class="font-weight-normal mt-0 mb-4">Criminal</h3>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -135,10 +135,10 @@
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_2.jpg);"></div>
+                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-wallet"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Financial Law</h3>
+                    <h3 class="font-weight-normal mt-0 mb-4">blabla</h3>
                     <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
 
                     <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
@@ -148,10 +148,10 @@
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_3.jpg);"></div>
+                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-computer-security"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Cyber Crime Law</h3>
+                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
                     <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
                     <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
@@ -164,7 +164,7 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-courthouse"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Real Estate Law</h3>
+                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
                     <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her. Original article: Web Designer Notebook | Text from Dummy Text Generator</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
@@ -177,7 +177,7 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-jury"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Family Law</h3>
+                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
@@ -193,7 +193,7 @@
     </section>
     <!-- END section -->
     
-    <section class="pb_section">
+    <section class="pb_section" style="padding-top: 0;">
       <div class="multiple-items pb_slide_v1">
         <div>
           <a href="#" class="link-block">

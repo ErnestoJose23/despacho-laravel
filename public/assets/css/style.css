@@ -815,7 +815,7 @@ input, select, textarea {
     color: #000; }
 
 .pb_outline-dark {
-  border: 1px solid #54c0ca;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   color: black;
   background: none; }
@@ -1773,5 +1773,5 @@ a {
 }
 
 .border-w-color{
-  border: 1px solid #54c0ca ;
+  border: 1px solid #54c0ca69 ;
 }

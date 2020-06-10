@@ -815,14 +815,15 @@ input, select, textarea {
     color: #000; }
 
 .pb_outline-dark {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #54c0ca;
   text-transform: uppercase;
   color: black;
   background: none; }
   .pb_outline-dark:hover, .pb_outline-dark:active, .pb_outline-dark:focus {
+    cursor: pointer;
     outline: none;
-    background: #000 !important;
-    border: 1px solid black;
+    background: #54c0ca !important;
+    border: 1px solid white;
     color: #fff; }
 
 .pb_signle-item {
@@ -1769,4 +1770,8 @@ a {
 
 .pb_loader{
   color: #54c0ca;
+}
+
+.border-w-color{
+  border: 1px solid #54c0ca ;
 }

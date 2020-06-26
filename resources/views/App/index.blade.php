@@ -282,7 +282,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Dirección</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>C/ Maldonado.... Los Barrios, Cádiz</address>
             </div>
           </div>
 

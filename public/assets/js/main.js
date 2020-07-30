@@ -188,9 +188,7 @@ $(document).ready(function ($) {
 				window.location.hash = hash;
 			});
 
-			if (navToggler.is(':visible')) {
-				navToggler.click();
-			}
+
 		});
 		$('body').on('activate.bs.scrollspy', function () {
 			console.log('nice');

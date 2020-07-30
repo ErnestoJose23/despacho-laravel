@@ -1065,12 +1065,12 @@ a {
 
 .Logo-Blanco{
   width: 35px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .Logo-Color{
   display: none;
   width: 35px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .pb_navbar {
   position: absolute;
@@ -1140,7 +1140,7 @@ a {
         padding-right: 0 !important; } }
     .pb_navbar.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5);
+      color: #54c0ca;
       border-color: rgba(0, 0, 0, 0.5);
       cursor: pointer;
       padding-right: 0; }

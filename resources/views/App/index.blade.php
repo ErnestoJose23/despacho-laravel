@@ -26,7 +26,7 @@
 
             <h2 class="heading mb-3">Lorem ipsum</h2>
             <div class="sub-heading"><p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Reserva una cita</a></p>
+            <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Reserva una cita</a></p>
             </div>
             
           </div>  

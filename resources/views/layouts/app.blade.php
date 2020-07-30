@@ -31,20 +31,24 @@
 
     <footer class="pb_footer bg-black" role="contentinfo">
         <div class="container">
+
             <div class="row text-center">
+            <div class="col">
+                <img src="assets/images/Logo-Color.png" alt="" width="100px">
+            </div>
             <div class="col">
                 <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-twitter"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
+                <div class="row">
+                    <div class="col text-center">
+                        <p class="pb_font-14" style="color:white">&copy;2020 Noelia Custodio. All Rights Reserved. </p>
+                    </div>
+                    </div>
             </div>
-            </div>
-            <div class="row">
-            <div class="col text-center">
-                <p class="pb_font-14" style="color:white">&copy;2020 Noelia Custodio. All Rights Reserved. </p>
-            </div>
-            </div>
+            
         </div>
     </footer>
     

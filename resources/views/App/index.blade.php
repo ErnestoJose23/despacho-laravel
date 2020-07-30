@@ -9,17 +9,17 @@
         </button>
         <div class="collapse navbar-collapse" id="probootstrap-navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#section-home">INICIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-about">SOBRE MI</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">AREAS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">CONTACTO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#inicio">INICIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">SOBRE MI</a></li>
+            <li class="nav-item"><a class="nav-link" href="#areas">AREAS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
 
-    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="section-home">
+    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="inicio">
       <div class="container">
         <div class="row align-items-center justify-content-end">
           <div class="col-md-6  order-md-1">
@@ -37,7 +37,7 @@
     <!-- END section -->
     
     
-    <section class="pb_section pb_section_v1" data-section="about" id="section-about">
+    <section class="pb_section pb_section_v1" data-section="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 pr-md-5 pr-sm-0">
@@ -100,14 +100,14 @@
           <div class="col-md-12">
             <h2 class="heading mb-3 titulo">Reserva una cita</h2>
             <p class="sub-heading mb-5 pb_color-light-opacity-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. </p>
-            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
+            <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
           </div>  
         </div>
 
       </div>
     </section>
     <!-- END section -->
-    <section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-practicing-areas">
+    <section class="pb_section pb_bg-half" data-section="practicing-areas" id="areas">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
@@ -266,7 +266,7 @@
 
     
     
-    <section class="pb_section" data-section="contact" id="section-contact">
+    <section class="pb_section" data-section="contact" id="contacto">
       <div class="container">
 
         <div class="row justify-content-md-center text-center">

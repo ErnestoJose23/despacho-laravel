@@ -33,10 +33,10 @@
         <div class="container">
 
             <div class="row text-center">
-            <div class="col">
+            <div class="col-md-6">
                 <img src="assets/images/Logo-Color.png" alt="" width="100px">
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="p-2"><i class="fa fa-twitter"></i></a></li>

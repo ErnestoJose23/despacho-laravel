@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="assets/css/helpers.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
 	</head>
 	<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 

@@ -1066,11 +1066,13 @@ a {
 .Logo-Blanco{
   width: 35px;
   padding-right: 10px;
+  margin-top: -3px;
 }
 .Logo-Color{
   display: none;
   width: 35px;
   padding-right: 10px;
+  margin-top: -3px;
 }
 .pb_navbar {
   position: absolute;
@@ -1117,7 +1119,8 @@ a {
         padding-right: 0 !important; } }
   @media (max-width: 991px) {
     .pb_navbar .navbar-nav {
-      background: rgba(0, 0, 0, 0.8);
+      margin-top: 5px;
+      background: rgba(0, 0, 0, 0.4);
       border-radius: 0px;
       padding-left: 1rem !important;
       padding-right: 1rem !important; } }
@@ -1174,9 +1177,10 @@ a {
       @media (max-width: 991px) {
         
         .pb_navbar.scrolled.pb_scrolled-light .navbar-nav {
-          background: none;
+          margin-top: 10px;;
+          background: white;
           border-radius: 0px;
-          padding-left: 0rem !important;
+          padding-left: 1rem !important;
           padding-right: 0rem !important; } }
       .pb_navbar.scrolled.pb_scrolled-light ul li a {
         color: #212529 !important; }

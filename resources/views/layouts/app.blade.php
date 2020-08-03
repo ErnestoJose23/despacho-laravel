@@ -68,4 +68,7 @@
     <script src="assets/js/main.js"></script>
 
     </body>
+    <script type="text/javascript" id="cookieinfo"
+	src="//cookieinfoscript.com/js/cookieinfo.min.js">
+</script>
 </html>

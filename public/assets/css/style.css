@@ -1798,3 +1798,8 @@ a {
   border: 1px solid #54c0ca69 ;
 }
 
+.cookieinfo-close{
+  background-color: #54c0ca !important;
+  color: white !important;
+}
+

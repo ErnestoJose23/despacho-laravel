@@ -140,7 +140,7 @@
                 <div class="d-lg-flex d-md-block slide_content">
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-wallet"></i></div>
+                    <div class="pb_icon_v1"><image src="/assets/images/Divorce.png" width="60px"></image></div>
                     <h3 class="font-weight-normal mt-0 mb-4">blabla</h3>
                     <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
 

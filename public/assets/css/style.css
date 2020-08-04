@@ -1806,5 +1806,6 @@ a {
 .icono-Areas{
   width: 60px;
   margin: auto;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top:35px;
 }

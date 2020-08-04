@@ -223,6 +223,9 @@ $(document).ready(function ($) {
 	}
 	ytpPlayer();
 
+	$('.navbar-nav>li>a').on('click', function () {
+		$('.navbar-collapse').collapse('hide');
+	});
 
 
 

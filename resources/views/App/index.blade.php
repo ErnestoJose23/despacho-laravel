@@ -211,6 +211,7 @@
           <div class="row">
             <img src="assets/images/AboutUs.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-4 rounded" />
             <img src="assets/images/Exterior.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-4 rounded" />
+            <img src="assets/images/Exterior.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-4 rounded" />
           </div>
         </div>
       </div>

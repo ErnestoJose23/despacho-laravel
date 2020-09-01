@@ -43,15 +43,15 @@
     <section class="pb_section pb_section_v1" data-section="about" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 pr-md-5 pr-sm-0">
+          <div class="col-lg-5 pr-md-5 pr-sm-0 mr-3">
             <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Sobre mí</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. Donec aliquam orci magna, at sollicitudin libero efficitur eu. </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. </p>
           </div>
-          <div class="col-lg-7">
-            <div class="images">
-              <img class="img1 img-fluid" src="assets/images/600x450_img_2.jpg" alt="free Template by uicookies.com">
-              <img class="img2" src="assets/images/800x500_img_1.jpg" alt="free Template by uicookies.com">
+          <div class="col-lg-6 ">
+            <div class="images aboutUsImage">
+              <img class="img1 img-fluid rounded" src="assets/images/AboutUs.jpg" alt="About us" width="85%">
+              {{--<img class="img2" src="assets/images/Tarjeta.jpg" alt="free Template by uicookies.com" width="85%">--}}
             </div>
           </div>
           
@@ -196,7 +196,45 @@
     </section>
  
     
+    <section class="pb_section "  id="galeria">
+      <div class="container">
+        <div class="row justify-content-md-center text-center mb-5">
+          <div class="col-lg-7">
+            <h2 class="mt-0 heading-border-top font-weight-normal">Galeria</h2>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="row">
+            <img src="assets/images/interior.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-6 rounded" />
+            <img src="assets/images/Tarjeta.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-6 rounded" />
+          </div>
+          <div class="row">
+            <img src="assets/images/AboutUs.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-4 rounded" />
+            <img src="assets/images/Exterior.jpg" alt="" width="100%" height="auto" class="gallery-img col-md-4 rounded" />
+          </div>
+        </div>
+      </div>
   
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+      <script>$(document).ready(function () {
+        $(".gallery-img").click(function(){
+          var t = $(this).attr("src");
+          $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+          $("#myModal").modal();
+        });
+      });
+    </script>
+    </section>
 
 
     <section class="pb_section bg-light">

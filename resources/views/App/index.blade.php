@@ -205,13 +205,12 @@
         </div>
         <div class="gallery">
           <div class="row">
-            <img src="assets/images/interior.jpg" alt="" width="100%" height="auto" class="img-fluid  gallery-img col-12 col-md-6 rounded" />
-            <img src="assets/images/Tarjeta.jpg" alt="" width="100%" height="auto" class="img-fluid  gallery-img col-12 col-md-6  rounded" />
+            <img src="assets/images/Miniature/Tarjeta.jpg" alt="" width="100%" height="auto" class="img-fluid  gallery-img col-12 col-md-6 rounded" />
+            <img src="assets/images/Miniature/Exterior.jpg" alt="" width="100%" height="auto" class="img-fluid  gallery-img col-12 col-md-6  rounded" />
           </div>
           <div class="row">
-            <img src="assets/images/Miniature/AboutUs.jpg" alt="" width="100%" height="auto" class="gallery-img col-12 col-md-4  rounded" />
-            <img src="assets/images/Miniature/Exterior.jpg" alt="" width="100%" height="auto" class="gallery-img col-12 col-md-4 rounded" />
-            <img src="assets/images/Miniature/Exterior.jpg" alt="" width="100%" height="auto" class="gallery-img col-12 col-md-4 rounded" />
+            <img src="assets/images/Miniature/Interior2.jpg" alt="" width="100%" height="auto" class="gallery-img col-12 rounded" />
+
           </div>
         </div>
       </div>

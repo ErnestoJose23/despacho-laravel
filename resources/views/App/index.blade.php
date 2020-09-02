@@ -96,7 +96,7 @@
     </section>
     <!-- END section -->
       
-    <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/1900x1200_img_3.jpg)">
+    <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/Bg.jpg)">
       <div class="container">
 
         <div class="row align-items-center">

@@ -2337,3 +2337,15 @@ flex-direction: center;
 .modal-content {
     border: none;
 }
+
+@media (max-width: 991px) {
+    .aboutUsImage {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .LogoFooter {
+        padding-bottom: 20px;
+    }
+}

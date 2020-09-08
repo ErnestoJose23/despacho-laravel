@@ -24,8 +24,10 @@
 
     <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="inicio">
       <div class="container">
+        
         <div class="row align-items-center justify-content-end">
           <div class="col-md-6  order-md-1">
+           
 
             <h2 class="heading mb-3">Lorem ipsum</h2>
             <div class="sub-heading"><p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -337,6 +339,18 @@
     
     <section class="pb_section" data-section="contact" id="contacto">
       <div class="container">
+        @if(Session::has('success'))
+        <div class="alert alert-success ">
+            {{Session::get('success')}}
+        </div>
+        <script> 
+          $(document).ready(function() { 
+            document.getElementById( 'contacto' ).scrollIntoView();
+            window.setTimeout( function () { top(); }, 2000 );
+
+          }); 
+      </script> 
+         @endif
 
         <div class="row justify-content-md-center text-center">
           <div class="col-lg-7">
@@ -378,10 +392,12 @@
         <iframe class="border-w-color" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d782.1566466985914!2d-5.490767676484406!3d36.183530311192854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1590489784955!5m2!1ses!2ses" width="100%" height="380"  allowfullscreen></iframe>
       </div>
 
+
       <div class="container">
         <div class="form">
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="{{ route('contact.store') }}" method="post" role="form" class="contactForm">
+            @csrf
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

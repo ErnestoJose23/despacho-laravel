@@ -340,16 +340,16 @@
     <section class="pb_section" data-section="contact" id="contacto">
       <div class="container">
         @if(Session::has('success'))
-        <div class="alert alert-success ">
-            {{Session::get('success')}}
-        </div>
-        <script> 
-          $(document).ready(function() { 
-            document.getElementById( 'contacto' ).scrollIntoView();
-            window.setTimeout( function () { top(); }, 2000 );
+          <div class="alert alert-success ">
+              {{Session::get('success')}}
+          </div>
+          <script> 
+            $(document).ready(function() { 
+              document.getElementById( 'contacto' ).scrollIntoView();
+              window.setTimeout( function () { top(); }, 2000 );
 
-          }); 
-      </script> 
+            }); 
+          </script> 
          @endif
 
         <div class="row justify-content-md-center text-center">

@@ -34,7 +34,7 @@
         <div class="container">
 
             <div class="row text-center">
-            <div class="col-md-6">
+            <div class="col-md-6 LogoFooter">
                 <img src="assets/images/Logo-Color.png" alt="" width="100px">
             </div>
             <div class="col-md-6">

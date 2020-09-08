@@ -392,9 +392,15 @@
                 <div class="validation"></div>
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-row">
+              <div class="form-group col-md-6">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefono (Opcional)" data-rule="phone" data-msg="Please enter a valid phone" />
+                <div class="validation"></div>
+              </div>
             </div>
             <div class="form-group">
               <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Escribe algo..." placeholder="Mensaje"></textarea>

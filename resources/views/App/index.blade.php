@@ -60,7 +60,6 @@
         </div>
       </div>  
     </section>
-    <!-- END section -->
 
     
     <section class="pb_section bg-light">
@@ -104,8 +103,8 @@
         <div class="row align-items-center">
           <div class="col-md-12">
             <h2 class="heading mb-3 titulo">Reserva una cita</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. </p>
-            <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">Ponte en contacto . </p>
+            <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Reservar cita</a></p>
           </div>  
         </div>
 

@@ -24,7 +24,7 @@ class ContactUsFormController extends Controller {
          ]);
 
         //  Store data in database
-        Contact::create($request->all());
+        //Contact::create($request->all());
 
         //  Send mail to admin
         \Mail::send('mail', array(

@@ -2361,8 +2361,26 @@ a {
 }
 
 .areas-img {
-    height: 450px;
+    max-height: 450px;
     width: 1000px;
+}
+
+.areas_section {
+    text-align: justify;
+}
+
+.area-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.areas-a {
+    color: #212529;
+}
+.areas-a:hover {
+    color: #212529;
 }
 
 @media (max-width: 991px) {
@@ -2374,5 +2392,8 @@ a {
 @media (max-width: 768px) {
     .LogoFooter {
         padding-bottom: 20px;
+    }
+    .areas_section {
+        margin-right: 30px;
     }
 }

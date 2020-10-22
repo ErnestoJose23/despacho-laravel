@@ -23,9 +23,6 @@ Route::get('/areas', function () {
 });
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
 
 Route::post('/', [
     'uses' => 'ContactUsFormController@ContactUsForm',

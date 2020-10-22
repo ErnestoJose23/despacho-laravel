@@ -29,26 +29,7 @@
 	</head>
 	<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
-    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
-      <div class="container">
-        <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
-        <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
-        <a class="navbar-brand" href="#">Noelia Custodio</a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="ion-navicon"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="probootstrap-navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#inicio">INICIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">SOBRE MI</a></li>
-            <li class="nav-item"><a class="nav-link" href="#areas">SERVICIOS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#galeria">GALERIA</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+
     @yield('content')
 
     <footer class="pb_footer bg-black" role="contentinfo">

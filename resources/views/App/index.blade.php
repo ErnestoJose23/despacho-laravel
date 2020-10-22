@@ -1,8 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- END nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+    <div class="container">
+      <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
+      <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
+      <a class="navbar-brand" href="#">Noelia Custodio</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="ion-navicon"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="probootstrap-navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#areas">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="inicio">
       <div class="container">
@@ -11,8 +29,8 @@
           <div class="col-md-6  order-md-1">
            
 
-            <h2 class="heading mb-3">Lorem ipsum</h2>
-            <div class="sub-heading"><p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h2 class="heading mb-3">Abogada Noelia Custodio</h2>
+            <div class="sub-heading">
             <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Reserva una cita</a></p>
             </div>
             
@@ -75,18 +93,20 @@
         </div>
         <div class="row">
           <div class="col-md">
+  
             <div class="media pb_media_v2 d-block text-center mb-3">
-              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><img src="assets/images/pluma.png" width="40px"/></div>
               <div class="media-body">
                 <h3 class="mt-0 pb_font-20">Civil</h3>
                 <p>Todas aquellas cuestiones relacionadas con la persona y sus
                   derechos, contratos y obligaciones...</p>
               </div>
             </div>
+  
           </div>
           <div class="col-md">
             <div class="media pb_media_v2 d-block text-center mb-3">
-              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-handcuffs"></i></div>
               <div class="media-body">
                 <h3 class="mt-0 pb_font-20">Penal</h3>
                 <p>Defensa a cualquier persona o empresa acusada de algún delito ante los
@@ -96,7 +116,7 @@
           </div>
           <div class="col-md">
             <div class="media pb_media_v2 d-block text-center  mb-3">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><img src="assets/images/divorcio.png" width="40px" height="40px" class="area-icon" /></i></div>
               <div class="media-body">
                 <h3 class="mt-0 pb_font-20">Familia</h3>
                 <p>Separaciones, divorcios, custodia compartida, etc...</p>
@@ -107,7 +127,7 @@
             <div class="media pb_media_v2 d-block text-center  mb-3">
               <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Violencia de genero</h3>
+                <h3 class="mt-0 pb_font-20">Violencia de género</h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
             </div>
@@ -117,140 +137,9 @@
       </div>
 
     </section>
-    <section class="pb_section pb_bg-half" data-section="practicing-areas" id="areas">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Servicios</h2>
-            <p></p>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="single-item pb_slide_v2">
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Civil</h3>
-                    <p>El Derecho Civil es el referido a todas aquellas cuestiones relacionadas con la persona y sus
-                      derechos, contratos y obligaciones, reclamaciones de renta, resolución de
-                      arrendamientos, derecho de familia , sucesiones y muchas más cuestiones donde podemos
-                      asesorarte para que tomes las decisiones correctas y que tu litigio siempre salga favorable para
-                      ti prestando unos servicios totalmente profesional y cualificado, con un trato personal, con total
-                      confidencialidad y una dedicación absoluta.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><image src="/assets/images/Divorce.png" class="icono-Areas"></image></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Contratos de compraventa</h3>
-                    <ul>
-                      <li>Reclamaciones civiles provenientes de accidentes de circulación (lesiones, fallecimientos,
-                        incapacidades).</li>
-                      <li>Comunidad de propietarios. Monitorios por impago
-                        Derechos Fundamentales (infracción del derecho al honor, intimidad y propia
-                        imagen).</li>
-                      <li>Derecho Sucesorio (declaración de herederos, adjudicación y partición del
-                        caudal hereditario, informes de testamentaría).</li>
-                      <li>Arrendamientos.</li>
-                      <li>Desahucios.</li>
-                      <li>Obligaciones y contratos.</li>
-                      <li>Responsabilidad civil y derecho de daños.</li>
-                      <li>Defensa de los consumidores.</li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Penal</h3>
-                    <p>En derecho penal se defenderá a cualquier persona o empresa acusada de algún delito ante los
-                      juzgados y tribunales de justicia garantizándote la mejor defensa de tu caso y un seguimiento
-                      constante de la evolución del procedimiento.</p>
-                      <p>Disciplinas en las que prestamos nuestros servicios:</p>
-                      <ul>
-                        <li>Delitos económicos: apropiación indebida, estafa, falsedades, delitos societarios, blanqueo de capitales,
-                          insolvencia punible, falsificaciones, etc.</li>
-                        <li>Delitos contra la persona: lesiones, homicidio, asesinato, etc.</li>
-                        <li>Delitos de tráfico: alcoholemias, exceso de velocidad, conducción sin carné, desobediencia a la autoridad,
-                          conducción temeraria y omisión del deber de socorro.</li>
-                        <li>Delitos contra el patrimonio: robo, hurto, receptación, daños, defraudaciones, etc.</li>
-                        <li>Delitos contra la salud pública: tráfico de estupefacientes.</li>
-                        <li>Asistencia al detenido.</li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-courthouse"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Violencia de genero</h3>
-                      <ul>
-                        <li>Lesiones, amenazas e injurias.</li>
-                        <li>Malos tratos psicológicos.</li>
-                        <li>Orden de alejamiento.</li>
-                        <li>Divorcio, guarda y custodia de menores.</li>
-                        <li>Reclamación de pensiones.</li>
-                        <li>Quebrantamiento de condena.</li>
-                        <li>Asistencia al detenido en sede policial y judicial.</li>
-                        <li>Juicios rápidos.</li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><image src="/assets/images/Divorce.png" class="icono-Areas"></image></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Familia</h3>
-                    <p>Asesoramos y defendemos a nuestros clientes cuando deseen extinguir el vínculo
-                      matrimonial, ya sea de mutuo acuerdo o contencioso, así como las posibles
-                      modificaciones de medidas. Le prestamos un asesoramiento completo en todo lo
-                      relacionado con esta materia, informándole de todos los derechos y obligaciones que le
-                      corresponden y aconsejándole cual sería la forma más adecuada de proceder en cada
-                      caso.</p>
-                      <ul>
-                        <li>Separaciones, custodia compartida, divorcios, pensión alimenticia.</li>
-                        <li>Ejecución de sentencias de divorcio, separación y guarda y custodia.</li>
-                        <li>Convenios de separación y divorcio de mutuo acuerdo.</li>
-                        <li>Reclamación de pensiones impagadas, alimentos, compensatorias.</li>
-                        <li>Liquidación régimen económico matrimonial.</li>
-                        <li>Modificación de medidas de sentencias de divorcio, separación y guarda y
-                          custodia.</li>
-                        <li>Reconciliación de los cónyuges.</li>
-                        <li>Reclamación de derechos de visitas a los abuelos.</li>
-                        <li>Regulación de parejas de hecho.</li>
-                        <li>Procedimientos de menores, (medidas de protección, oposiciones a
-                          declaraciones de desamparo y adopciones).</li>
-                        <li>Procesos de filiación.</li>
-                        <li>Capitulaciones matrimoniales (separaciones de bienes).</li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>  
-    </section>
- 
     
-    <section class="pb_section "  id="galeria">
+    <section class="pb_section"  id="galeria">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
@@ -319,77 +208,9 @@
     </section>
 
 
-    <section class="pb_section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg">
-
-            <div class="media pb_media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-jury"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">Group of Lawyers</h3>
-                <p class="pb_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-law"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">No One is Above The Law</h3>
-                <p class="pb_font-14">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-courthouse"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">Hall of Justice</h3>
-                <p class="pb_font-14">It is a paradisematic country, in which roasted parts of sentences fly into your mouth decided to leave for the far World of Grammar.</p>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-lg">
-
-            <div class="media pb_media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-jury"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">Family Law</h3>
-                <p class="pb_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-courthouse"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">No One is Above The Law</h3>
-                <p class="pb_font-14">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5">
-              
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-law"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-17">Hall of Justice</h3>
-                <p class="pb_font-14">It is a paradisematic country, in which roasted parts of sentences fly into your mouth decided to leave for the far World of Grammar.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     
     
-    <section class="pb_section" data-section="contact" id="contacto">
+    <section class="pb_section bg-light" data-section="contact" id="contacto" >
       <div class="container">
         @if(Session::has('success'))
           <div class="alert alert-success ">
@@ -404,10 +225,10 @@
           </script> 
          @endif
 
-        <div class="row justify-content-md-center text-center">
+        <div class="row justify-content-md-center text-center ">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top font-weight-normal">Ponte en contacto</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <p></p>
           </div>
         </div>
 
@@ -417,7 +238,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Dirección</h3>
-              <address>C/ Maldonado.... Los Barrios, Cádiz</address>
+              <address>C/ Maldonado, 25, 11370 Los Barrios, Cádiz</address>
             </div>
           </div>
 
@@ -425,7 +246,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Teléfono</h3>
-              <p><a href="tel:+155895548855" style="color: black;">+1 5589 55488 55</a></p>
+              <p><a href="tel:626072598" style="color: black;">626 07 25 98</a></p>
             </div>
           </div>
 
@@ -433,7 +254,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com" style="color: black;">info@example.com</a></p>
+              <p><a href="mailto:noelia.custodiogomez@gmail.com" style="color: black;">noelia.custodiogomez@gmail.com</a></p>
             </div>
           </div>
 
@@ -452,26 +273,26 @@
             @csrf
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control bg-light" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control bg-light" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" required/>
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control bg-light" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
               <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefono (Opcional)" data-rule="phone" data-msg="Please enter a valid phone" />
+                <input type="text" class="form-control bg-light" name="phone" id="phone" placeholder="Telefono (Opcional)" data-rule="phone" data-msg="Please enter a valid phone" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Escribe algo..." placeholder="Mensaje"></textarea>
+              <textarea class="form-control bg-light" name="message" rows="8" data-rule="required" data-msg="Escribe algo..." placeholder="Mensaje" required></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><div class="form-group">
@@ -490,7 +311,5 @@
             OK
         </button>
     </div>
-    
-    <!-- END section -->
 
 @endsection

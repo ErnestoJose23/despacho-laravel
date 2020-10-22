@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/areas', function () {
+    return view('App/areas');
+});
+
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

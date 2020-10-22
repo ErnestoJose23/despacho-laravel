@@ -1,26 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
-      <div class="container">
-        <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
-        <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
-        <a class="navbar-brand" href="#">Noelia Custodio</a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="ion-navicon"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="probootstrap-navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#inicio">INICIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">SOBRE MI</a></li>
-            <li class="nav-item"><a class="nav-link" href="#areas">AREAS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- END nav -->
+
+<!-- END nav -->
 
     <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/slide.jpg);     background-position: inherit;" id="inicio">
       <div class="container">
@@ -45,14 +27,19 @@
     <section class="pb_section pb_section_v1" data-section="about" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 pr-md-5 pr-sm-0 mr-3">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Sobre mí</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. Donec aliquam orci magna, at sollicitudin libero efficitur eu. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non porta diam. Vestibulum semper porttitor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vivamus ut eros eget neque ultrices imperdiet. </p>
+          <div class="col-lg-5 pr-md-6 pr-sm-0 mr-3">
+            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal ">Sobre mí</h2>
+            <p class="about_me">Licenciada en Derecho por la Universidad de Cádiz (UCA), abogada ejerciente del Ilustre Colegio
+              de Abogados de Cádiz desde el 2016,
+              realizé el Curso de Práctica Jurídica y Forense.
+            </p>
+            <p>
+              Especialidad en ramas : Derecho de Familia, civil, penal, menores, Violencia de genero y Extranjeria
+              abogada en turno de oficio desde 2018.</p>
           </div>
           <div class="col-lg-6 ">
             <div class="images aboutUsImage">
-              <img class="img1 img-fluid rounded" src="assets/images/AboutUs.jpg" alt="About us" width="85%">
+              <img class="img1 img-fluid rounded" src="assets/images/AboutUs.jpg" alt="About us" width="70%">
               {{--<img class="img2" src="assets/images/Tarjeta.jpg" alt="free Template by uicookies.com" width="85%">--}}
             </div>
           </div>
@@ -62,48 +49,15 @@
     </section>
 
     
-    <section class="pb_section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center mb-3">
-              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Group of Lawyers</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center  mb-3">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">No One is Above The Law</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center  mb-3">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Hall of Justice</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
+    
       
     <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/Bg.jpg)">
       <div class="container">
 
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h2 class="heading mb-3 titulo">Reserva una cita</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">Ponte en contacto . </p>
+            <h2 class="heading mb-3 titulo">Cuéntanos tu caso</h2>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">Solicita una cita precia. </p>
             <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Reservar cita</a></p>
           </div>  
         </div>
@@ -111,12 +65,64 @@
       </div>
     </section>
     <!-- END section -->
+    <section class="pb_section bg-light " data-section="practicing-areas" id="areas">
+      <div class="container">
+        <div class="row justify-content-md-center text-center mb-5">
+          <div class="col-lg-7">
+            <h2 class="mt-0 heading-border-top font-weight-normal">Servicios</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center mb-3">
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Civil</h3>
+                <p>Todas aquellas cuestiones relacionadas con la persona y sus
+                  derechos, contratos y obligaciones...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center mb-3">
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Penal</h3>
+                <p>Defensa a cualquier persona o empresa acusada de algún delito ante los
+                  juzgados y tribunales de justicia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Familia</h3>
+                <p>Separaciones, divorcios, custodia compartida, etc...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Violencia de genero</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="button-info"><a href="{{url('/areas')}}" role="button" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0 ">Más información</a></p>
+      </div>
+
+    </section>
     <section class="pb_section pb_bg-half" data-section="practicing-areas" id="areas">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">En que estas especializada</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class="mt-0 heading-border-top font-weight-normal">Servicios</h2>
+            <p></p>
           </div>
         </div>
 
@@ -126,65 +132,112 @@
             <div class="single-item pb_slide_v2">
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Criminal</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4">Civil</h3>
+                    <p>El Derecho Civil es el referido a todas aquellas cuestiones relacionadas con la persona y sus
+                      derechos, contratos y obligaciones, reclamaciones de renta, resolución de
+                      arrendamientos, derecho de familia , sucesiones y muchas más cuestiones donde podemos
+                      asesorarte para que tomes las decisiones correctas y que tu litigio siempre salga favorable para
+                      ti prestando unos servicios totalmente profesional y cualificado, con un trato personal, con total
+                      confidencialidad y una dedicación absoluta.</p>
                   </div>
                 </div>
               </div>
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><image src="/assets/images/Divorce.png" class="icono-Areas"></image></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">blabla</h3>
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-
-                    <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4">Contratos de compraventa</h3>
+                    <ul>
+                      <li>Reclamaciones civiles provenientes de accidentes de circulación (lesiones, fallecimientos,
+                        incapacidades).</li>
+                      <li>Comunidad de propietarios. Monitorios por impago
+                        Derechos Fundamentales (infracción del derecho al honor, intimidad y propia
+                        imagen).</li>
+                      <li>Derecho Sucesorio (declaración de herederos, adjudicación y partición del
+                        caudal hereditario, informes de testamentaría).</li>
+                      <li>Arrendamientos.</li>
+                      <li>Desahucios.</li>
+                      <li>Obligaciones y contratos.</li>
+                      <li>Responsabilidad civil y derecho de daños.</li>
+                      <li>Defensa de los consumidores.</li>
+                      
+                    </ul>
                   </div>
                 </div>
               </div>
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-computer-security"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
+                    <h3 class="font-weight-normal mt-0 mb-4">Penal</h3>
+                    <p>En derecho penal se defenderá a cualquier persona o empresa acusada de algún delito ante los
+                      juzgados y tribunales de justicia garantizándote la mejor defensa de tu caso y un seguimiento
+                      constante de la evolución del procedimiento.</p>
+                      <p>Disciplinas en las que prestamos nuestros servicios:</p>
+                      <ul>
+                        <li>Delitos económicos: apropiación indebida, estafa, falsedades, delitos societarios, blanqueo de capitales,
+                          insolvencia punible, falsificaciones, etc.</li>
+                        <li>Delitos contra la persona: lesiones, homicidio, asesinato, etc.</li>
+                        <li>Delitos de tráfico: alcoholemias, exceso de velocidad, conducción sin carné, desobediencia a la autoridad,
+                          conducción temeraria y omisión del deber de socorro.</li>
+                        <li>Delitos contra el patrimonio: robo, hurto, receptación, daños, defraudaciones, etc.</li>
+                        <li>Delitos contra la salud pública: tráfico de estupefacientes.</li>
+                        <li>Asistencia al detenido.</li>
+                      </ul>
                   </div>
                 </div>
               </div>
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-courthouse"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her. Original article: Web Designer Notebook | Text from Dummy Text Generator</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4">Violencia de genero</h3>
+                      <ul>
+                        <li>Lesiones, amenazas e injurias.</li>
+                        <li>Malos tratos psicológicos.</li>
+                        <li>Orden de alejamiento.</li>
+                        <li>Divorcio, guarda y custodia de menores.</li>
+                        <li>Reclamación de pensiones.</li>
+                        <li>Quebrantamiento de condena.</li>
+                        <li>Asistencia al detenido en sede policial y judicial.</li>
+                        <li>Juicios rápidos.</li>
+                      </ul>
                   </div>
                 </div>
               </div>
 
               <div>
                 <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-jury"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Lorem Ipsum</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
+                    <div class="pb_icon_v1"><image src="/assets/images/Divorce.png" class="icono-Areas"></image></div>
+                    <h3 class="font-weight-normal mt-0 mb-4">Familia</h3>
+                    <p>Asesoramos y defendemos a nuestros clientes cuando deseen extinguir el vínculo
+                      matrimonial, ya sea de mutuo acuerdo o contencioso, así como las posibles
+                      modificaciones de medidas. Le prestamos un asesoramiento completo en todo lo
+                      relacionado con esta materia, informándole de todos los derechos y obligaciones que le
+                      corresponden y aconsejándole cual sería la forma más adecuada de proceder en cada
+                      caso.</p>
+                      <ul>
+                        <li>Separaciones, custodia compartida, divorcios, pensión alimenticia.</li>
+                        <li>Ejecución de sentencias de divorcio, separación y guarda y custodia.</li>
+                        <li>Convenios de separación y divorcio de mutuo acuerdo.</li>
+                        <li>Reclamación de pensiones impagadas, alimentos, compensatorias.</li>
+                        <li>Liquidación régimen económico matrimonial.</li>
+                        <li>Modificación de medidas de sentencias de divorcio, separación y guarda y
+                          custodia.</li>
+                        <li>Reconciliación de los cónyuges.</li>
+                        <li>Reclamación de derechos de visitas a los abuelos.</li>
+                        <li>Regulación de parejas de hecho.</li>
+                        <li>Procedimientos de menores, (medidas de protección, oposiciones a
+                          declaraciones de desamparo y adopciones).</li>
+                        <li>Procesos de filiación.</li>
+                        <li>Capitulaciones matrimoniales (separaciones de bienes).</li>
+                      </ul>
                   </div>
                 </div>
               </div>
@@ -430,6 +483,13 @@
       </div>
 
     </section>
+    <div class="alert text-center cookiealert" role="alert">
+      Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestro sitio web. Si continúa utilizando este sitio asumiremos que está de acuerdo.
+     
+        <button type="button" class="btn btn-primary btn-sm acceptcookies">
+            OK
+        </button>
+    </div>
     
     <!-- END section -->
 

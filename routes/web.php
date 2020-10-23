@@ -22,6 +22,10 @@ Route::get('/areas', function () {
     return view('App/areas');
 });
 
+Route::get('/politica', function(){
+    return view('App/politica');
+});
+
 
 
 Route::post('/', [

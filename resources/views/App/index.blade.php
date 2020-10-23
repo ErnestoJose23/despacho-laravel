@@ -3,8 +3,10 @@
 @section('content')
   <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
     <div class="container">
-      <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
-      <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
+        <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
+      
       <a class="navbar-brand" href="#">Noelia Custodio</a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +32,13 @@
            
 
             <h2 class="heading mb-3">Abogada Noelia Custodio</h2>
-            <div class="sub-heading">
-            <p><a href="#contacto" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Reserva una cita</a></p>
-            </div>
+
             
           </div>  
         </div>
       </div>
       
     </section>
-    <!-- END section -->
     
     
     <section class="pb_section pb_section_v1" data-section="about" id="about">
@@ -137,8 +136,6 @@
       </div>
 
     </section>
-
-    
     <section class="pb_section"  id="galeria">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
@@ -157,7 +154,6 @@
           </div>
         </div>
       </div>
-  
       <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -166,50 +162,7 @@
           </div>
         </div>
       </div>
-  
-      <!-- partial -->
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-      <script>
-
-      if( isMobile() || (screen.width <= 1024)) {
-            $(".gallery-img").unbind('click');
-        } 
-      
-      var mediaqueryList = window.matchMedia("(min-width: 1024px)");
-      
-      $(document).ready(function () {
-        $(".gallery-img").click(function(){
-          var t = $(this).attr("src");
-          var res = t.replace("Miniature", "Big");
-          if(mediaqueryList.matches) {
-            $(".modal-body").html("<img src='"+res+"' class='modal-img'>");
-            $("#myModal").modal();
-          }
-        });
-      });
-
-      function isMobile() {
-        var isMobile = false; //initiate as false
-        // device detection
-        if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0, 4))) isMobile = true;
-        return isMobile;
-      }
-      
-      $(window).resize(function(e){
-        if($(window).width() < 768) {
-        console.log($(window).width());
-          $("#ImageMobile").each(function() {
-            $(this).attr("src", "assets/images/Miniature/Interior.jpg");
-                      });
-                  }   
-      });
-    </script>
-   
-    </section>
-
-
-    
-    
+    </section> 
     <section class="pb_section bg-light" data-section="contact" id="contacto" >
       <div class="container">
         @if(Session::has('success'))
@@ -220,28 +173,23 @@
             $(document).ready(function() { 
               document.getElementById( 'contacto' ).scrollIntoView();
               window.setTimeout( function () { top(); }, 2000 );
-
             }); 
           </script> 
          @endif
-
         <div class="row justify-content-md-center text-center ">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top font-weight-normal">Ponte en contacto</h2>
             <p></p>
           </div>
         </div>
-
         <div class="row contact-info">
-
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Dirección</h3>
-              <address>C/ Maldonado, 25, 11370 Los Barrios, Cádiz</address>
+              <p>C/ Maldonado, 25, 11370 Los Barrios, Cádiz</p>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
@@ -249,7 +197,6 @@
               <p><a href="tel:626072598" style="color: black;">626 07 25 98</a></p>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
@@ -257,15 +204,11 @@
               <p><a href="mailto:noelia.custodiogomez@gmail.com" style="color: black;">noelia.custodiogomez@gmail.com</a></p>
             </div>
           </div>
-
         </div>
       </div>
-
       <div class="container mb-4">
         <iframe class="border-w-color" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d782.1566466985914!2d-5.490767676484406!3d36.183530311192854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1590489784955!5m2!1ses!2ses" width="100%" height="380"  allowfullscreen></iframe>
       </div>
-
-
       <div class="container">
         <div class="form">
           <div id="errormessage"></div>
@@ -295,9 +238,11 @@
               <textarea class="form-control bg-light" name="message" rows="8" data-rule="required" data-msg="Escribe algo..." placeholder="Mensaje" required></textarea>
               <div class="validation"></div>
             </div>
+            <label><input type="checkbox" name="acceptance-881" value="1" required><span class="pl-2">He leído y acepto la <a href="{{url('/politica')}}" target="_blank">Política de Privacidad</a>.</span></label>
             <div class="text-center"><div class="form-group">
               <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Enviar">
             </div></div>
+            
           </form>
         </div>
         

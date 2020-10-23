@@ -4,8 +4,10 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
   <div class="container">
-    <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
-    <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
+    <a class="navbar-brand" href="/">
+      <img src="assets/images/Logo-Blanco.png" alt="" class="logo Logo-Blanco">
+      <img src="assets/images/Logo-Color.png" alt=""  class="logo Logo-Color">
+    </a>
     <a class="navbar-brand" href="/">Noelia Custodio</a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">

@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Noelia Custodio</title>
 		<meta name="description" content="Noelia Custodio abogada">
-		<meta name="keywords" content="abogada, abogado, noelia, custodio, justicia, penal, civil, divorcio, familia">
+		<meta name="keywords" content="abogada, abogado, noelia, custodio, justicia, penal, civil, divorcio, familia, los barros, algeciras, cadiz">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Marvel">
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
